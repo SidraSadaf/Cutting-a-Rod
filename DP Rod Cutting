@@ -2,7 +2,7 @@
 #include <algorithm>
 #include <vector>
 
-int cutRod(vector<int> v, int n){
+int cutRod(vector<int> price, int n){
   int dp[n+1];
   dp[0] = 0;
   
